@@ -7,10 +7,10 @@ import { useState } from 'react';
 
 function App() {
   
-const [numClics, setNumClics] = useState(0);
+const [numClics, setNumClics] = useState(1);
 
 const incrementarContador = () => {
-    setNumClics(numClics + 1);
+    setNumClics(numClics + 3);
   }
 
 const reiniciarContador = () => {
